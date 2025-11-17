@@ -90,7 +90,7 @@ function NavItems({ isMobile = false, onClose = () => {} }) {
           <AnimatePresence>
             {isExploreOpen && (
               <motion.div 
-                className="pl-4 mt-2 space-y-2 overflow-hidden"
+                className="pl-4 mt-2 space-y-2 text-[15px] overflow-hidden"
                 initial={{ height: 0, opacity: 0 }}
                 animate={{ height: "auto", opacity: 1 }}
                 exit={{ height: 0, opacity: 0 }}
@@ -252,7 +252,7 @@ function NavItems({ isMobile = false, onClose = () => {} }) {
                 >
                   <div className='mb-6'>
                     <h3 className='font-semibold text-gray-500 mb-3'>Explore by Goal</h3>
-                    <ul className='space-y-2'>
+                    <ul className='space-y-2 text-[15px]'>
                       {exploreByGoal.map((goal, index) => (
                         <motion.li 
                           key={index}
@@ -274,7 +274,7 @@ function NavItems({ isMobile = false, onClose = () => {} }) {
                   </div>
 
                   <div className='border-t border-gray-200 pt-4'>
-                    <ul className='space-y-2'>
+                    <ul className='space-y-2 text-[15px]'>
                       {categories.map((category, index) => (
                         <motion.li 
                           key={index}
@@ -302,7 +302,7 @@ function NavItems({ isMobile = false, onClose = () => {} }) {
                   animate={{ x: 0, opacity: 1 }}
                   transition={{ delay: 0.15 }}
                 >
-                  <ul className='space-y-2'>
+                  <ul className='space-y-2 text-[15px]'>
                     {aiCategories.map((category, index) => (
                       <motion.li 
                         key={index}
@@ -329,7 +329,7 @@ function NavItems({ isMobile = false, onClose = () => {} }) {
         {['Book a Tutor', 'Become a Tutor', 'Our Programs', 'Download', 'Plan & Pricing', 'Contact Us'].map((item) => (
           <motion.li 
             key={item}
-            className='cursor-pointer hover:text-default transition'
+            className='cursor-pointer hover:text-default transition text-[15px] font-semibold'
             whileHover={{ y: -2 }}
           >
             {item}

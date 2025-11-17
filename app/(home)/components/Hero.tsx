@@ -2,7 +2,7 @@ import React from 'react';
 
 const HeroSection: React.FC = () => {
   return (
-    <div className="bg-[#446D6D] ">
+    <div className="bg-default">
       <div className="container max-w-7xl mx-auto px-6 ">
         <div className="grid md:grid-cols-2  items-center">
           {/* Left Content */}
@@ -22,7 +22,7 @@ const HeroSection: React.FC = () => {
 
           {/* Right Image */}
           <div className="relative order-1 md:order-2 h-full">
-            <div className="overflow-hidden h-full md:shadow-2xl">
+            <div className="overflow-hidden h-full ">
               <img 
                 src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&h=600&fit=crop&q=80" 
                 alt="Students learning together" 

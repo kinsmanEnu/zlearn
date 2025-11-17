@@ -71,7 +71,7 @@ function NavItems({ isMobile = false, onClose = () => {} }) {
         >
           <motion.button 
             onClick={() => setIsExploreOpen(!isExploreOpen)}
-            className="flex items-center justify-between w-full py-3 px-4 hover:bg-primary text-sm rounded transition"
+            className="flex items-center justify-between w-full py-3 px-4 hover:bg-primary rounded transition"
             whileHover={{ x: 5 }}
             whileTap={{ scale: 0.98 }}
           >
@@ -107,7 +107,7 @@ function NavItems({ isMobile = false, onClose = () => {} }) {
                     <motion.a 
                       key={index} 
                       href="#" 
-                      className="block py-2 px-4 hover:bg-primary text-sm rounded" 
+                      className="block py-2 px-4 hover:bg-primary rounded" 
                       onClick={onClose}
                       initial={{ opacity: 0, x: -10 }}
                       animate={{ opacity: 1, x: 0 }}
@@ -130,7 +130,7 @@ function NavItems({ isMobile = false, onClose = () => {} }) {
                     <motion.a 
                       key={index} 
                       href="#" 
-                      className="block py-2 px-4 hover:bg-primary text-sm rounded" 
+                      className="block py-2 px-4 hover:bg-primary rounded" 
                       onClick={onClose}
                       initial={{ opacity: 0, x: -10 }}
                       animate={{ opacity: 1, x: 0 }}
@@ -152,7 +152,7 @@ function NavItems({ isMobile = false, onClose = () => {} }) {
                     <motion.a 
                       key={index} 
                       href="#" 
-                      className="block py-2 px-4 hover:bg-primary text-sm rounded" 
+                      className="block py-2 px-4 hover:bg-primary rounded" 
                       onClick={onClose}
                       initial={{ opacity: 0, x: -10 }}
                       animate={{ opacity: 1, x: 0 }}
@@ -173,7 +173,7 @@ function NavItems({ isMobile = false, onClose = () => {} }) {
           <motion.a 
             key={item}
             href="#" 
-            className="py-3 px-4 hover:bg-primary text-sm rounded transition" 
+            className="py-3 px-4 hover:bg-primary rounded transition" 
             onClick={onClose}
             variants={{
               hidden: { opacity: 0, x: -20 },
@@ -195,7 +195,7 @@ function NavItems({ isMobile = false, onClose = () => {} }) {
           }}
         >
           <motion.button 
-            className="w-full py-3 px-4 text-default border-2 border-default rounded-lg font-semibold hover:bg-primary text-sm transition"
+            className="w-full py-3 px-4 text-default border-2 border-default rounded-lg font-semibold hover:bg-primary transition"
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
           >
@@ -251,7 +251,7 @@ function NavItems({ isMobile = false, onClose = () => {} }) {
                   transition={{ delay: 0.1 }}
                 >
                   <div className='mb-6'>
-                    <h3 className='text-sm font-semibold text-gray-500 mb-3'>Explore by Goal</h3>
+                    <h3 className='font-semibold text-gray-500 mb-3'>Explore by Goal</h3>
                     <ul className='space-y-2'>
                       {exploreByGoal.map((goal, index) => (
                         <motion.li 
@@ -262,7 +262,7 @@ function NavItems({ isMobile = false, onClose = () => {} }) {
                         >
                           <motion.a 
                             href="#" 
-                            className='flex items-center justify-between py-2 px-3 hover:bg-primary text-sm rounded transition group'
+                            className='flex items-center justify-between py-2 px-3 hover:bg-primary rounded transition group'
                             whileHover={{ x: 5 }}
                           >
                             <span className='text-gray-700 group-hover:text-default'>{goal}</span>
@@ -284,7 +284,7 @@ function NavItems({ isMobile = false, onClose = () => {} }) {
                         >
                           <motion.a 
                             href="#" 
-                            className='flex items-center justify-between py-2 px-3 hover:bg-primary text-sm rounded transition group'
+                            className='flex items-center justify-between py-2 px-3 hover:bg-primary rounded transition group'
                             whileHover={{ x: 5 }}
                           >
                             <span className='text-gray-700 group-hover:text-default'>{category}</span>

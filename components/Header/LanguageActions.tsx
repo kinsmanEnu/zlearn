@@ -46,7 +46,7 @@ export default function LanguageActions() {
               <Icon icon="mage:chevron-down" width="20" height="20" />
             </div>
           </DropdownMenuTrigger>
-          <DropdownMenuContent className="w-56  overflow-y-auto mr-10">
+          <DropdownMenuContent className="w-56 max-h-[90vh] overflow-y-auto mr-10">
             <DropdownMenuLabel>Select Language</DropdownMenuLabel>
             <DropdownMenuSeparator />
             {languages.map((language) => (

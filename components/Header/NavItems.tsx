@@ -52,7 +52,7 @@ function NavItems({ isMobile = false, onClose = () => {} }) {
         <div>
           <button 
             onClick={() => setIsExploreOpen(!isExploreOpen)}
-            className="flex items-center justify-between w-full py-3 px-4 hover:bg-primary text-[14.8px] rounded transition"
+            className="flex items-center justify-between w-full py-3 px-4 hover:bg-primary-100 text-[14.8px] rounded transition"
           >
             <span className="font-semibold ">Explore</span>
             <Icon 
@@ -66,7 +66,7 @@ function NavItems({ isMobile = false, onClose = () => {} }) {
               <div className="mb-4">
                 <h4 className="text-xs font-semibold text-gray-500 mb-2 px-4">Explore by Goal</h4>
                 {exploreByGoal.map((goal, index) => (
-                  <a key={index} href="#" className="block py-2 px-4 hover:bg-primary text-[14.8px] rounded" onClick={onClose}>
+                  <a key={index} href="#" className="block py-2 px-4 hover:bg-primary-100 text-[14.8px] rounded" onClick={onClose}>
                     {goal}
                   </a>
                 ))}
@@ -75,7 +75,7 @@ function NavItems({ isMobile = false, onClose = () => {} }) {
               <div className="mb-4">
                 <h4 className="text-xs font-semibold text-gray-500 mb-2 px-4">AI Categories</h4>
                 {aiCategories.map((category, index) => (
-                  <a key={index} href="#" className="block py-2 px-4 hover:bg-primary text-[14.8px] rounded" onClick={onClose}>
+                  <a key={index} href="#" className="block py-2 px-4 hover:bg-primary-100 text-[14.8px] rounded" onClick={onClose}>
                     {category}
                   </a>
                 ))}
@@ -84,7 +84,7 @@ function NavItems({ isMobile = false, onClose = () => {} }) {
               <div>
                 <h4 className="text-xs font-semibold text-gray-500 mb-2 px-4">All Categories</h4>
                 {categories.map((category, index) => (
-                  <a key={index} href="#" className="block py-2 px-4 hover:bg-primary text-[14.8px] rounded" onClick={onClose}>
+                  <a key={index} href="#" className="block py-2 px-4 hover:bg-primary-100 text-[14.8px] rounded" onClick={onClose}>
                     {category}
                   </a>
                 ))}
@@ -94,16 +94,16 @@ function NavItems({ isMobile = false, onClose = () => {} }) {
         </div>
 
         {/* Other Nav Items */}
-        <a href="#" className="py-3 px-4 hover:bg-primary text-[14.8px] rounded transition" onClick={onClose}>Book a Tutor</a>
-        <a href="#" className="py-3 px-4 hover:bg-primary text-[14.8px] rounded transition" onClick={onClose}>Become a Tutor</a>
-        <a href="#" className="py-3 px-4 hover:bg-primary text-[14.8px] rounded transition" onClick={onClose}>Our Programs</a>
-        <a href="#" className="py-3 px-4 hover:bg-primary text-[14.8px] rounded transition" onClick={onClose}>Download</a>
-        <a href="#" className="py-3 px-4 hover:bg-primary text-[14.8px] rounded transition" onClick={onClose}>Plan & Pricing</a>
-        <a href="#" className="py-3 px-4 hover:bg-primary text-[14.8px] rounded transition" onClick={onClose}>Contact Us</a>
+        <a href="#" className="py-3 px-4 hover:bg-primary-100 text-[14.8px] rounded transition" onClick={onClose}>Book a Tutor</a>
+        <a href="#" className="py-3 px-4 hover:bg-primary-100 text-[14.8px] rounded transition" onClick={onClose}>Become a Tutor</a>
+        <a href="#" className="py-3 px-4 hover:bg-primary-100 text-[14.8px] rounded transition" onClick={onClose}>Our Programs</a>
+        <a href="#" className="py-3 px-4 hover:bg-primary-100 text-[14.8px] rounded transition" onClick={onClose}>Download</a>
+        <a href="#" className="py-3 px-4 hover:bg-primary-100 text-[14.8px] rounded transition" onClick={onClose}>Plan & Pricing</a>
+        <a href="#" className="py-3 px-4 hover:bg-primary-100 text-[14.8px] rounded transition" onClick={onClose}>Contact Us</a>
         
         {/* Mobile Action Buttons */}
         <div className="pt-4 border-t border-gray-200 space-y-3">
-          <button className="w-full py-3 px-4 text-default border-2 border-default rounded-lg font-semibold hover:bg-primary text-[14.8px] transition">
+          <button className="w-full py-3 px-4 text-default border-2 border-default rounded-lg font-semibold hover:bg-primary-100 text-[14.8px] transition">
             Sign In
           </button>
           <button className="w-full py-3 px-4 bg-default text-white rounded-lg font-semibold hover:bg-[#3A5F5F] transition">
@@ -136,7 +136,7 @@ function NavItems({ isMobile = false, onClose = () => {} }) {
                   <ul className='space-y-2'>
                     {exploreByGoal.map((goal, index) => (
                       <li key={index}>
-                        <a href="#" className='flex items-center justify-between py-2 px-3 hover:bg-primary text-[14.8px] rounded transition group'>
+                        <a href="#" className='flex items-center justify-between py-2 px-3 hover:bg-primary-100 text-[14.8px] rounded transition group'>
                           <span className='text-gray-700 group-hover:text-default'>{goal}</span>
                           <Icon icon="ion:chevron-forward" className="text-gray-400 group-hover:text-default" />
                         </a>
@@ -149,7 +149,7 @@ function NavItems({ isMobile = false, onClose = () => {} }) {
                   <ul className='space-y-2'>
                     {categories.map((category, index) => (
                       <li key={index}>
-                        <a href="#" className='flex items-center justify-between py-2 px-3 hover:bg-primary text-[14.8px] rounded transition group'>
+                        <a href="#" className='flex items-center justify-between py-2 px-3 hover:bg-primary-100 text-[14.8px] rounded transition group'>
                           <span className='text-gray-700 group-hover:text-default'>{category}</span>
                           <Icon icon="ion:chevron-forward" className="text-gray-400 group-hover:text-default" />
                         </a>

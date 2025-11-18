@@ -70,7 +70,7 @@ const TopCategories: React.FC = () => {
                         {categories.map((category, index) => (
                             <div
                                 key={index}
-                                className="md:bg-white md:rounded p-6 cursor-pointer group border-b-2 md:border-2"
+                                className=" md:rounded p-6 cursor-pointer group border-b-2 md:border-2"
                             >
                                 <div className="flex items-start gap-4">
                                     <div className={` rounded-lg flex items-center justify-center text-2xl   transition`}>

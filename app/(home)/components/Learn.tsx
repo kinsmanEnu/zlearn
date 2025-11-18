@@ -39,7 +39,7 @@ export default function Learn() {
     }
 
     return (
-        <div className='container max-w-7xl mx-auto px-4 py-2 md:py-20'>
+        <div className='container max-w-7xl mx-auto px-6 md:px-4 py-2 md:py-20'>
             <div>
                 <h1 className='capitalize text-4xl md:text-5xl xl:text-7xl text-start md:text-center mb-5 md:mb-16'>
                     Learn new skills when and where you like.

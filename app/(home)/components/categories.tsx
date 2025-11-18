@@ -60,8 +60,8 @@ const TopCategories: React.FC = () => {
                             </p>
                         </div>
                         <div className=" mt-10 hidden md:block">
-                            <button className="px-8 py-3 text-defaut font-bold flex items-center gap-2 text-base md:text-xl">
-                                <Icon icon="iwwa:add" className='size-8 md:size-10' /> View All Categories
+                            <button className="px-8 py-3 text-defaut font-bold flex items-center gap-2">
+                                <Icon icon="iwwa:add" className='size-6 md:size-8z' /> View All Categories
                             </button>
                         </div>
                     </div>
@@ -89,8 +89,8 @@ const TopCategories: React.FC = () => {
 
                     {/* View All Button */}
                     <div className=" mt-10 md:hidden">
-                        <button className=" text-defaut font-bold flex items-center gap-2 text-base md:text-xl">
-                            <Icon icon="iwwa:add" className='size-8 md:size-10' /> View All Categories
+                        <button className=" text-defaut font-bold flex items-center gap-2 ">
+                            <Icon icon="iwwa:add" className='size-6 md:size-8' /> View All Categories
                         </button>
                     </div>
                 </div>

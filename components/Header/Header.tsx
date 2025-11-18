@@ -5,6 +5,7 @@ import ActionButton from './ActionButton'
 import ModalSearch from '../Seachbar/ModalSearch'
 import { Icon } from '@iconify/react/dist/iconify.js'
 import { useState } from 'react'
+import LanguageActions from './LanguageActions'
 
 
 // Main Header Component
@@ -16,23 +17,24 @@ export default function Header() {
       <div className='flex items-center justify-between px-8 py-4 '>
         <div className="left-section flex items-center gap-10">
           <Logo />
-          <div className="hidden min-[1200px]:block text-gray-800">
+          <div className="hidden min-[1300px]:block text-gray-800">
             <NavItems />
           </div>
         </div>
-        <div className="right-section flex items-center gap-6">
+        <div className="right-section flex items-center gap-4 xl:gap-0">
           <ModalSearch />
           <div className='hidden min-[1400px]:block'>
             <ActionButton />
           </div>
-          <button 
+          <LanguageActions />
+          <button
             className="min-[1400px]:hidden text-gray-800"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
-            <Icon 
-              icon={isMobileMenuOpen ? "ion:close" : "hugeicons:menu-11"} 
-              width="24" 
-              height="24" 
+            <Icon
+              icon={isMobileMenuOpen ? "ion:close" : "hugeicons:menu-11"}
+              width="24"
+              height="24"
             />
           </button>
         </div>

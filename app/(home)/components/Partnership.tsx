@@ -27,7 +27,7 @@ export default function PartnershipMarquee() {
             <div className="">
                 <div className="text-center mb-12 text-white bg-primary-950 p-8 mx-4 md:mx-0 rounded-lg md:rounded-none">
                     <div className='container max-w-7xl mx-auto'>
-                        <h2 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold  mb-4">
+                        <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold  mb-4">
                             Our Trusted Partners
                         </h2>
                         <p className="text-lg md:text-xl  max-w-2xl mx-auto">

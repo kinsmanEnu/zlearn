@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function Logo() {
   return (
-    <div className='text-xl md:text-2xl font-semibold text-primary-900 flex items-center '>
-      <img src="/zlearntrans.png" alt="ZLearn Logo" className='h-10 w-10 md:h-15 md:w-14' />
-     <p className='-ml-4'>-Learn</p>
+    <div className='text-[22px] md:text-[25px] font-semibold text-white md:text-primary-900 flex items-center px-4 md:px-0'>
+      <img src="/zlearntrans.png" alt="ZLearn Logo" className='h-12 w-12 md:h-14 md:w-14 hidden md:block' />
+      <p className='md:-ml-4'><span className='md:hidden'>Z</span>-Learn</p>
     </div>
   )
 }

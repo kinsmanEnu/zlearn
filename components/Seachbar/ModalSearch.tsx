@@ -9,7 +9,7 @@ export default function ModalSearch() {
     <>
       <button
           onClick={() => setIsVisible(!isVisible)}
-          className='border border-gray-300 rounded-full p-2'>
+          className='border border-gray-300 rounded-full p-2 text-white md:text-gray-800'>
           <Icon icon="circum:search" width="24" height="24" />
         </button>
         <AnimatePresence>

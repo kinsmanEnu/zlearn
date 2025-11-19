@@ -32,14 +32,14 @@ export default function CallToACtion() {
                         </div>
 
                         <div className='mb-10'>
-                            <button className='px-8 py-4 bg-primary-300 text-primar-950 border-2 capitalize text-xl border-primary-950 font-semibold rounded hover:bg-primaty-800 transition-colors duration-300 inline-flex items-center gap-2'>
+                            <button className='px-8 py-4 bg-primary-300 text-primar-950 border-2 capitalize text-lg md:text-xl border-primary-950 font-semibold rounded hover:bg-primaty-800 transition-colors duration-300 inline-flex items-center gap-2'>
                                 Get Started Today
                             </button>
                         </div>
                     </div>
 
                     {/* Right Image */}
-                    <div className='relative h-full min-h-[200px]'>
+                    <div className='hidden md:block relative h-full min-h-[200px]'>
                         <img
                             src='https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&h=800&fit=crop'
                             alt='Business professionals collaborating'

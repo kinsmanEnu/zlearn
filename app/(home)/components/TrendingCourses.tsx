@@ -176,7 +176,7 @@ export default function TrendingCourse() {
         </div>
 
         <div className='text-center mt-12'>
-          <button className='px-8 py-4 bg-primary-700 text-white font-bold rounded border-4 border-primary-950 hover:bg-primary-800 transition-colors duration-300'>
+          <button className='px-8 py-4 text-sm md:text-base bg-primary-700 text-white font-bold rounded border-2 border-primary-950 hover:bg-primary-800 transition-colors duration-300'>
             View All Courses
           </button>
         </div>

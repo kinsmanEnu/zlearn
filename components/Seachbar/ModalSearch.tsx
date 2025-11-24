@@ -19,7 +19,7 @@ export default function ModalSearch() {
             <motion.div
               initial={{ height: 100, width: 100, opacity: 0}}
               animate={{ height: '60%', width: '100%', opacity:1 }}
-              transition={{ duration: 0.5 }}
+              transition={{ duration: 0.26 }}
               exit={{height: 100, width: 100, opacity:0}}
               className='bg-white flex  justify-center p-4'
 

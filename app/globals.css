@@ -71,12 +71,12 @@ BODY
   --radius-xl: calc(var(--radius) + 4px);
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a !important;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
   font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
